@@ -1,6 +1,6 @@
 {
-  "name": "@uniswap/interface",
-  "description": "Uniswap Interface",
+  "name": "@zenswap/interface",
+  "description": "Zenswap Interface",
   "homepage": ".",
   "private": true,
   "devDependencies": {
