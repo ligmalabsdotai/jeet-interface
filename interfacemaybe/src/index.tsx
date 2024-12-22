@@ -56,8 +56,7 @@ function Updaters() {
 const container: any = document.getElementById('root')
 const root = createRoot(container)
 
-root.render(
-  <StrictMode>
+root.render(<>
     <FixedGlobalStyle />
     <Web3ReactProvider getLibrary={getLibrary}>
       <Web3ProviderNetwork getLibrary={getLibrary}>
@@ -69,6 +68,5 @@ root.render(
           </ThemeProvider>
         </Provider>
       </Web3ProviderNetwork>
-    </Web3ReactProvider>
-  </StrictMode>
+    </Web3ReactProvider></>
 )
